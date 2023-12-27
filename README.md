@@ -1,13 +1,14 @@
 <h1 align="center">In the Name Of God</h1>
 
--  **🌱Beautiful login form to use on pages**
+-  **🌱Beautiful Login & Register form to use on pages**
 
 -  **🆓Free to the public**
  
 - - - - - - - - - - - - - - - - - - -  
-🔰 Attributes : 
+🛠️  Attributes : 
 <br>
 <ul>
+  <li>Clean coding and easy to understand for the audience</li>
   <li>beautiful design</li>
   <li>Customization capability</li>
   <li>Responsive</li>
@@ -15,8 +16,8 @@
 </ul>
 - - - - - - - - - - - - - - - - - - -  
 🖼️ Picture :
+<img src="Pic/Login-(Update2)-(2).png"><br>
 <img src="Pic/Login-(Update2)-(1).png">
-<img src="Pic/Login-(Update2)-(2).png">
 - - - - - - - - - - - - - - - - - - - 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
