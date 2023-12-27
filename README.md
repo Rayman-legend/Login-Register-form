@@ -16,7 +16,6 @@
 </ul>
 - - - - - - - - - - - - - - - - - - -  <br>
 🖼️ Picture :
-<<<<<<< HEAD
 <img src="Pic/Login-(Update2)-(2).png"><br>
 <img src="Pic/Login-(Update2)-(1).png">
 =======
