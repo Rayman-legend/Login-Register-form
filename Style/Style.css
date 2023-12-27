@@ -13,6 +13,7 @@ body{
     background-image: linear-gradient(to bottom, #D2D2F8 55%, #8181E9);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-inline:19px;
 }
 .container{
     width: 100%;
@@ -29,6 +30,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-inline:10px;
 }
 .login-section{
     background-color: rgba(256, 256, 256, 0.05);
