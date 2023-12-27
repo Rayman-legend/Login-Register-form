@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #D2D2F8 55%, #8181E9);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    max-width: 1050px;
+    min-height: 90%;
+    height: 92%;
+    background-image: url("../Pic/login-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 25px;
+    aspect-ratio: 2/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-section{
+    background-color: rgba(256, 256, 256, 0.05);
+    border: 2px solid rgba(256, 256, 256, 0.6);
+    border-radius: 15px;
+    width: 350px;
+    height: auto;
+    padding: 35px 30px;
+    backdrop-filter: blur(5px);
+}
+.login-title{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    margin-block-end: 20px;
+}
+.login-input{
+    width:100%;
+    height: 45px;
+    border: 2px solid rgba(256, 256, 256, 0.8);
+    border-radius: 65px;
+    margin-block-end: 18px;
+    display: flex;
+    align-items: center;
+}
+.login-input input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 85%;
+    padding-inline-start: 15px;
+    height: 100%;
+    color:#fff;
+}
+.login-input input::placeholder{
+    color: #fff;
+}
+.login-input svg{
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    aspect-ratio: 1/1;
+}
+.cnt-forgetPassword{
+    margin-block-start: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.RememberMe {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.RememberMe input{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    accent-color: #8017b4;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.RememberMe label, #foget-pass{
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+#foget-pass{
+    text-decoration: underline 1px solid #8181E9;
+}
+.btn-submit-login{
+    display: block;
+    background-color: #fff;
+    border-radius: 65px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-block-start: 17px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-block-start: 20px;
+}
+.btn-submit-login span{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+#cirlce-anm-scale_btn{
+    position: absolute;
+    background-color: #8181e9;
+    filter: opacity(34%);
+    -webkit-filter: opacity(34%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top:0;
+    left: -30px;
+    transition: all 3.9s ease;
+}
+.btn-submit-login:hover #cirlce-anm-scale_btn{
+    filter: opacity(10%);
+    transform: scale(80);
+}
+.btn-submit-login:hover span{
+    letter-spacing: 5px;
+}
+#register-link{
+    margin-block-start: 10px;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+#register-link a{
+    cursor: pointer;
+    text-decoration: underline 1px solid #8181E9;
+    color: #fff;
+}
+#orText{
+    display: block;
+    margin:35px auto;
+    text-align:center;
+    color:#b7b7d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#orText::after, #orText::before{
+    content: "";
+    height: 2px;
+    width:100%;
+    background-color: #b7b7d6;
+    border-radius: 10px;
+}
+.google-link{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    padding-inline: 10px;
+    text-decoration: none;
+}
+.google-link img{
+    width: 24px;
+    height: 24px;
+}
+.google-link span{
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+    flex: 2;
+    text-align: center;
+}
