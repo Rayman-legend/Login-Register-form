@@ -18,11 +18,9 @@
 🖼️ Picture :
 <img src="Pic/Login-(Update2)-(2).png"><br>
 <img src="Pic/Login-(Update2)-(1).png">
-=======
 <br>
 <img src="Pic/Login-(1A).png">
 <img src="Pic/Login-(2A).png">
->>>>>>> master
 - - - - - - - - - - - - - - - - - - - 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
